@@ -46,18 +46,18 @@ a:hover{
  }
 
  header a{
-     color: 0 0 0 .87;
+    color: 0 0 0 .87;
  }
 
  header #sign-in{
-     width: 80px;
-     height: 36px;
-     background: #1a73e8;
-     border: 1px solid transparent;
-     border-radius: 4px;
-     padding: 9px 15px;
-     margin: 0 8px;
-     color: white;
+    width: 80px;
+    height: 36px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 15px;
+    margin: 0 8px;
+    color: white;
  }
 
  header #sign-in:hover{
@@ -67,11 +67,11 @@ a:hover{
  }
 
  header #btn-app{
-     width: 40px;
-     height: 40px;
-     border-radius: 100%;
-     padding: 8px;
-     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 8px;
+    cursor: pointer;
  }
 
  header #btn-app:hover{
@@ -79,8 +79,22 @@ a:hover{
  }
 
  header #btn-app svg{
-     fill: #5f6368;
+    fill: #5f6368;
  }
+
+ footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    bottom: 0;
+    color: #70757a;
+}
+
+footer #country{
+    padding: 15px 30px;
+    font-size: 15px;
+}
 
  /* ========== Key Frames ========== */
  /* ========== Media Queries ========== */
